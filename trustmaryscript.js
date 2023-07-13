@@ -34,7 +34,7 @@
 
     if(document.head.contains(element)) {
       document.addEventListener('DOMContentLoaded', function() {
-        document.getElementById("ec-instantsite").appendChild(widgetElement);
+        document.body.appendChild(widgetElement);
         render();
       });
     } else {
